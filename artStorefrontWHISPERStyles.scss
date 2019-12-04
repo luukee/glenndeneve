@@ -1,0 +1,145 @@
+/* top nav */
+a.nav-page[href="http://www.facebook.com/gldeneve"]::before,
+a.nav-page[href="http://instagram.com/glenndeneve"]::before {
+    display: inline-block;
+    font: normal normal normal 16px/1 FontAwesome;
+    font-size: 24px;
+}
+a.nav-page[href="http://www.facebook.com/gldeneve"],
+a.nav-page[href="http://instagram.com/glenndeneve"] {
+    width: 24px;
+    overflow: hidden; 
+    color: transparent !important;
+}
+
+a.nav-page[href="http://www.facebook.com/gldeneve"]::before {
+    content: "\f082";
+    color: #3A55A2;
+}
+
+a.nav-page[href="http://instagram.com/glenndeneve"]::before {
+    content: "\f16d";
+    color: #ed1c52;
+}
+
+// last link end padding fix
+#user_website #navigation .ddsmoothmenu ul li.parent:last-of-type a,
+#user_website #scrolling_header_and_navigation .ddsmoothmenu ul li:last-of-type a {
+    padding-right: 0;
+}
+
+
+/* products: bottom spacing */
+.product-container.two-columns {
+    margin-bottom: 115px;
+}
+
+/* Products Page: sale icon */
+.sold-label .icon {
+    font-size: 50px;
+}
+
+/* Products Page: hide social icons */
+.social-icons-bar > .share {
+    display: none;
+}
+
+/* Products: vertically align thumbs */
+// .photo-inner-container a {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     background: #222222;
+// }
+
+/* Products Page: sale icon */
+.sold-label .text {
+    font-size: 9px;
+    padding-left: 9px;
+    line-height: 51px;
+    font-weight: 900;
+}
+
+/* Home: hide title */
+.home .headline {
+    position: absolute;
+}
+
+/* product page: image container */
+.pgwSlideshow {
+    background-color: transparent;
+}
+
+/* Products page: name and price */
+// #content_area .product-outer-container .album-title {
+//     display: flex;
+//     align-items: baseline;
+//     justify-content: center;
+// }
+
+// .album-title * {
+//     text-align: center;
+// }
+
+// product gallery
+#content_area .product-container .product-outer-container {
+    
+    .photo-inner-container a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #222222;
+    }
+
+    .album-title {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        * {
+            padding: 0 3px;
+        }
+        .cheapest-price {
+            text-align: center;
+        }
+    }
+} // END product gallery
+
+/* product page: thumbnails container */
+.pgwSlideshow .ps-list {
+    background-color: transparent;
+}
+
+// HOME: product gallery feel
+div#content_area {
+    padding: 0;
+}
+
+.Collage figure .blur {
+    border: 3px solid #e9e9e9;
+}
+
+.Collage img {
+    border: none;
+}
+
+.store-container {
+    padding-top: 0;
+}
+
+/* Product Page: realign main image and thumbs */
+/*
+.ps-list {
+    display: flex;
+    flex: 1 0 15%;
+}
+
+.ps-current {
+    display: flex;
+    flex: 1 0 85%;
+}
+
+.pgwSlideshow {
+    display: flex;
+    flex-direction: row-reverse;
+}
+*/
