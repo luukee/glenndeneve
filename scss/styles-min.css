@@ -1,0 +1,232 @@
+@media only screen and (min-width: 58.75em) {
+  .website-body .large-12.columns.no-left-right-padding.logo-nav-inline {
+    border-bottom: 2px solid #333;
+    border-top: 2px solid #333;
+    margin-top: 15px; }
+  .website-body #scrolling_header_and_navigation {
+    border-bottom: 2px solid #333; }
+  .website-body #content_area .content-area-inner .headline h1 {
+    color: #666; }
+  .website-body #content_area .product-container .album-title .product-name a,
+  .website-body #content_area .product-container .album-title .pre-price-text,
+  .website-body #content_area .product-container .album-title .cheapest-price {
+    color: #666; }
+  #user_website .website-body #shopping_cart_btn_sidebar.sidebar-widget a.submit-form-btn.soft,
+  #user_website .website-body #scrolling_header_and_navigation .navigation-menu .ddsmoothmenu ul li a,
+  #user_website .website-body #navigation .navigation-menu .ddsmoothmenu ul li.parent .dropdown a {
+    color: #999; }
+  #user_website .website-body #navigation .navigation-menu .ddsmoothmenu ul:not(.dropdown) li a.jqhover {
+    color: #fff; }
+  #user_website .website-body #navigation .navigation-menu .ddsmoothmenu ul li ul.dropdown a.jqhover {
+    color: #333; }
+  #user_website .website-body #scrolling_header_and_navigation .navigation-menu .ddsmoothmenu ul:not(.dropdown) li a.jqhover {
+    color: #fff; }
+  #user_website .website-body #scrolling_header_and_navigation .navigation-menu .ddsmoothmenu ul.dropdown li a.jqhover {
+    color: #333; } }
+
+html,
+.body-container,
+#content_area .lead-content,
+.footer-outer,
+body#user_website,
+.website-body #content_area,
+#content_area .product-container .photo-outer-container .photo-inner-container,
+#user_website .top-controls-outer#top_controls,
+div#footer,
+#user_website .website-body #scrolling_header_and_navigation,
+#content_area .product-container .product-outer-container .photo-inner-container a.product-photo-link,
+#user_website .website-body .logo-nav-inline {
+  background-color: #141219; }
+
+.global-form-container label, .user-form-field-label label, .user-form-field-label,
+#user_website .top-controls #account_container a,
+#user_website #shopping_cart_bar_container.site-search-avail #shopping_cart_btn a.submit-form-btn,
+#user_website #search.search-container form input.submit-form-btn,
+#user_website #navigation .navigation-menu .ddsmoothmenu ul li.parent a,
+#user_website #scrolling_header_and_navigation .navigation-menu .ddsmoothmenu ul li a {
+  color: #999; }
+
+body *:not(.fa) {
+  font-family: verdana, Arial, sans-serif !important; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 1px; }
+
+h6 {
+  border-top: 1px solid #666;
+  padding-top: 1rem; }
+
+#content_area .headline h1 {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+  margin-top: 20px; }
+
+ul,
+ol,
+p {
+  font-size: 1rem; }
+
+@media only screen and (min-width: 58.75em) {
+  #user_website .website-body #top_controls.top-controls-outer {
+    margin-top: 15px; }
+  .logo-nav-inline .row.wrap.header-nav-outer {
+    max-width: 1300px; }
+  .ddsmoothmenu {
+    margin: 0;
+    padding: 1rem 0; }
+  .store-container .Collage.grid figure.product {
+    width: 30% !important;
+    max-width: 30% !important;
+    height: auto !important;
+    float: none; }
+  .logo-slogan img {
+    max-height: 50px;
+    padding: 0.5rem 0 0 0; }
+  .ddsmoothmenu {
+    padding: 2.35rem 0 0 0; }
+  .header-outer {
+    padding: 1rem 0 0 0; }
+  .header-outer .logo-header {
+    margin-top: 0; }
+  .photo-inner-container .sold-label .text {
+    font-size: 12px;
+    padding-left: 2px;
+    line-height: 46px;
+    color: #000; }
+  .photo-inner-container .sold-label .icon {
+    font-size: 44px; } }
+
+/* top nav */
+a.nav-page[href="http://www.facebook.com/gldeneve"]::before,
+a.nav-page[href="http://instagram.com/glenndeneve"]::before {
+  display: inline-block;
+  font: normal normal normal 16px/1 FontAwesome;
+  font-size: 24px; }
+
+a.nav-page[href="http://www.facebook.com/gldeneve"],
+a.nav-page[href="http://instagram.com/glenndeneve"] {
+  width: 24px;
+  overflow: hidden;
+  color: transparent !important; }
+
+a.nav-page[href="http://www.facebook.com/gldeneve"]::before {
+  content: "\f082";
+  color: #3a55a2; }
+
+a.nav-page[href="http://instagram.com/glenndeneve"]::before {
+  content: "\f16d";
+  color: #ed1c52; }
+
+#user_website #navigation .ddsmoothmenu ul li.parent:last-of-type a,
+#user_website #scrolling_header_and_navigation .ddsmoothmenu ul li:last-of-type a {
+  padding-right: 0; }
+
+/* products: bottom spacing */
+.product-container.two-columns {
+  margin-bottom: 115px; }
+
+/* Products Page: sale icon */
+.sold-label .icon {
+  font-size: 50px; }
+
+/* Products Page: hide social icons */
+.social-icons-bar > .share {
+  display: none; }
+
+/* Products: vertically align thumbs */
+.photo-inner-container a div.photo-hover {
+  background: transparent;
+  opacity: 1;
+  border: 1px solid #ffffff21; }
+
+.photo-inner-container img {
+  -o-object-fit: contain;
+  object-fit: contain; }
+
+/* Products Page: sale icon */
+.sold-label .text {
+  font-size: 9px;
+  padding-left: 9px;
+  line-height: 51px;
+  font-weight: 900; }
+
+.trust-bar .badge img {
+  max-height: 75px; }
+
+.preview-wall-color {
+  background-image: url(https://i.ibb.co/9hTbKPR/living-room-2-1.png); }
+
+/* Home: hide title */
+.home .content-area-inner .headline {
+  position: absolute; }
+
+/* product page: image container */
+.pgwSlideshow {
+  background-color: transparent; }
+
+/* Products page: name and price */
+#content_area .product-container .product-outer-container .photo-inner-container {
+  background: #141219; }
+
+#content_area .product-container .product-outer-container .album-title {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: center;
+  justify-content: center; }
+
+#content_area .product-container .product-outer-container .album-title * {
+  padding: 0 3px; }
+
+#content_area .product-container .product-outer-container .album-title .cheapest-price {
+  text-align: center; }
+
+/* product page: thumbnails container */
+.pgwSlideshow .ps-list {
+  background-color: transparent; }
+
+#user_site_products_art_print_products_show form.art-print-product section:not(.active) p.title a {
+  border-left: 1px solid #535353; }
+
+div#content_area {
+  padding: 0; }
+
+.Collage figure .blur {
+  border: 3px solid #e9e9e9; }
+
+.Collage img {
+  border: none; }
+
+.store-container {
+  padding-top: 0; }
+
+.content-area button.submit-form-btn.secondary-button {
+  background: #4c4c4c;
+  color: #cccccc; }
+
+/* Product Page: realign main image and thumbs */
+/*
+.ps-list {
+    display: flex;
+    flex: 1 0 15%;
+}
+
+.ps-current {
+    display: flex;
+    flex: 1 0 85%;
+}
+
+.pgwSlideshow {
+    display: flex;
+    flex-direction: row-reverse;
+}
+*/

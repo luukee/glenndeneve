@@ -1,0 +1,82 @@
+// social icons
+a.nav-page[href="http://www.facebook.com/gldeneve"],
+a.nav-page[href="http://instagram.com/glenndeneve"] {
+	width: 24px;
+	overflow: hidden;
+	color: transparent !important;
+}
+// facebook icon
+a.nav-page[href="http://www.facebook.com/gldeneve"]::before {
+	content: "\f082";
+	color: #3a55a2;
+}
+// instagram icon
+a.nav-page[href="http://instagram.com/glenndeneve"]::before {
+	content: "\f16d";
+	color: #ed1c52;
+}
+// Products Page: sale icon
+.sold-label .icon {
+	font-size: 50px;
+}
+//  Products Page: hide social icons 
+.social-icons-bar > .share {
+	display: none;
+}
+// Products Page: sale icon
+.sold-label .text {
+	font-size: 9px;
+	padding-left: 9px;
+	line-height: 51px;
+	font-weight: 900;
+}
+// footer badge icons
+.trust-bar {
+	.badge img {
+		max-height: 75px;
+	}
+}
+
+// mobile only
+// mobile only
+// mobile only
+@media only screen and (max-width: 845px) {
+	i.fa.fa-shopping-cart {
+		font-size: 2.5em !important;
+		line-height: 40px;
+		color: #bebebe;
+	}
+	.topbar-icon.cart {
+		right: 40px;
+	}
+}
+// END mobile only
+// END mobile only
+// END mobile only
+
+
+// media query DESKTOP ONLY
+// media query DESKTOP ONLY
+// media query DESKTOP ONLY
+@media only screen and (min-width: 58.75em) {
+	.trust-bar {
+		&.columns {
+			margin-top: 6em;
+		}
+	}
+	// red sold icon
+	.photo-inner-container .sold-label {
+		.icon {
+			font-size: 44px;
+		}
+		.text {
+			font-size: 12px;
+			padding-left: 2px;
+			line-height: 46px;
+			color: $black;
+		}
+	}
+}
+// END media query DESKTOP ONLY
+// END media query DESKTOP ONLY
+// END media query DESKTOP ONLY

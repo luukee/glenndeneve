@@ -1,0 +1,384 @@
+<style>
+    body#user_website {
+        overflow: hidden;
+    }
+
+    .large-12.columns.headline {
+        text-indent: -399%;
+        position: absolute;
+    }
+
+    #trust_bar.columns,
+    #navigation>.navigation-menu,
+    #mobile_navigation>.navigation-menu,
+    div#footer,
+    #user_website .logo-nav-inline,
+    #user_website .website-body #top_controls.top-controls-outer,
+    .columns.badge.no-left-right-padding.align-center.live-preview-widget,
+    .downarrowclass {
+        display: none !important;
+    }
+
+    div#content_area>.row {
+        display: flex;
+        height: 80vh;
+        align-items: center;
+        max-width: 100vw;
+    }
+
+    .row .row {
+        margin-left: unset;
+    }
+
+    .landing-image {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .landing-logo {
+        display: flex;
+        justify-content: center;
+        padding-top: 0;
+    }
+
+    .landing-logo img {
+        width: 85%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .landing-nav-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .landing-nav {
+        padding: 0 1em 0 1em;
+    }
+
+    .contentbuilder-wrapper .is-btn,
+    .contentbuilder-wrapper a.is-btn,
+    #divFb .is-btn,
+    #divFb a.is-btn {
+        border: none;
+        font-size: 20px;
+        padding: 22px 20px;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+
+    .contentbuilder-wrapper li {
+        line-height: 1;
+    }
+
+    ul.landing-social-icons li {
+        list-style-type: none;
+        padding: 0 1em;
+    }
+
+    ul.landing-social-icons {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    a.nav-page {
+        margin-top: 1em;
+    }
+
+    #cookie_consent_container {
+        display: none;
+    }
+
+    div#content_area {
+        padding-top: 0;
+    }
+    /* menu */
+    .navigation-menu {
+        margin-top: 0;
+    }
+    .ddsmoothmenu.landing {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .ddsmoothmenu.landing ul {
+        margin-bottom: 0;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .ddsmoothmenu.landing li {
+        list-style: none;
+    }
+
+    .ddsmoothmenu.landing li.parent > a {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .ddsmoothmenu.landing ul.dropdown {
+        padding-left: 0;
+        margin-bottom: 0;
+        top: -25vh !important;
+    }
+
+    .navigation-menu .ddsmoothmenu ul li ul.dropdown li a, 
+    .navigation-menu .ddsmoothmenu ul li ul li.menuonly {
+        text-decoration: none;
+        width: unset;
+        text-transform: uppercase;
+        margin: 0;
+        background-color: rgb(247, 247, 247);
+        color: #666;
+        font-family: verdana;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        text-decoration-line: none;
+        text-transform: none;
+        margin-top: 0px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .navigation-menu .ddsmoothmenu ul li ul.dropdown li a:hover {
+        color: #333;
+    }
+    /* END menu */
+
+    /* desktop media query */
+    @media only screen and (min-width: 58.75em) {
+
+        a.nav-page[href="http://www.facebook.com/gldeneve"],
+        a.nav-page[href="http://instagram.com/glenndeneve"] {
+            width: 35px;
+        }
+
+        a.nav-page[href="http://www.facebook.com/gldeneve"]::before,
+        a.nav-page[href="http://instagram.com/glenndeneve"]::before {
+            font-size: 35px;
+            ;
+        }
+
+        .contentbuilder-wrapper>.large-12.columns {
+            max-width: 85vh;
+        }
+
+        .contentbuilder-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+
+        .landing-logo {
+            justify-content: unset;
+        }
+
+        .landing-logo img {
+            width: 50%;
+            height: min-content;
+        }
+
+        div#content_area>.row {
+            max-width: 1260px;
+            height: 100vh;
+        }
+
+        .landing-links-container {
+            display: flex;
+            padding-bottom: 1em;
+            margin-left: -0.9375em;
+        }
+
+        .ddsmoothmenu.landing {
+            justify-content: flex-end;
+        }
+
+        .ddsmoothmenu.landing ul.dropdown {
+            top: 50px !important;
+        }
+
+        .landing-nav.hide {
+            display: block;
+            padding-bottom: 1em;
+            padding: 1em;
+        }
+
+        .landing-nav-container {
+            justify-content: flex-end;
+        }
+
+        .contentbuilder-wrapper .is-btn,
+        .contentbuilder-wrapper a.is-btn,
+        #divFb .is-btn,
+        #divFb a.is-btn {
+            padding: 0 20px;
+            font-size: 12px;
+            line-height: 1;
+        }
+
+        .content-area .contentbuilder-wrapper .is-btn:last-child {
+            padding-right: 0;
+        }
+
+        .hide-desktop {
+            display: none;
+        }
+
+        .landing-social-icons a.nav-page {
+            margin-top: 2em;
+        }
+    }
+   @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+        ul.landing-social-icons li {
+            padding: 72px 1em;
+        }
+        a.nav-page[href="http://www.facebook.com/gldeneve"],
+        a.nav-page[href="http://instagram.com/glenndeneve"] {
+            width: 45px;
+        }
+
+        a.nav-page[href="http://www.facebook.com/gldeneve"]::before,
+        a.nav-page[href="http://instagram.com/glenndeneve"]::before {
+            font-size: 45px;
+            ;
+        }
+    }
+</style>
+
+<div class="row clearfix landing-links-container">
+    <div class="column half landing-logo">
+        <img
+            src="https://images.discerningassets.com/image/upload/c_limit,h_1000,q_auto:good,w_1000/v1579032084/mrzxo5ywid095papcj6y.png">
+    </div>
+    <div class="column half landing-nav hide" spellcheck="false">
+        <div class="landing-nav-container navigation-menu">
+
+                <div id="smoothmenu1" class="ddsmoothmenu landing">
+                    <ul>
+                
+                        <li id="page_100961" class="parent" style="z-index: 98;">
+                            <a href="/shop-originals" class="nav-page" target="">Shop Art</a>
+                        </li>
+                
+                        <li id="page_99447" class="parent" style="z-index: 97;">
+                            <a href="#" class="nav-page disabled" target="">Info</a>
+                            <ul class="dropdown" style="top: 31px;visibility: visible;left: 0px;width: 202px;display: block;">
+                
+                                <li id="page_99446" class="">
+                                    <a href="/bio" class="" target="">Bio</a>
+                
+                                </li>
+                
+                                <li id="page_99448" class="">
+                                    <a href="/exhibitions" class="" target="">Exhibitions</a>
+                
+                                </li>
+                
+                                <li id="page_99467" class="">
+                                    <a href="/collections" class="" target="">Select Collections</a>
+                
+                                </li>
+                
+                                <li id="page_101151" class="">
+                                    <a href="/photo-galleries/albums/in-the-studio" class="" target="">In the Studio</a>
+                                </li>
+                
+                                <li id="page_103264" class="">
+                                    <a href="/faq" class="" target="">FAQ</a>
+                
+                                </li>
+                
+                            </ul>
+                        </li>
+                
+                        <li id="page_98995" class="parent">
+                            <a href="/contact" class="nav-page" target="">Contact</a>
+                
+                        </li>
+                
+                    </ul>
+                </div>
+        </div>
+    </div>
+</div>
+<div class="row clearfix">
+    <div class="column full landing-image">
+        <img src="https://images.discerningassets.com/image/upload/q_auto:best/c_limit,w_1500/v1579130619/kfrnuyrewbupxaq7vx4e.jpg"
+            style="float: left;" data-filename="5mb In the Galaxy OG-main-16.jpg">
+    </div>
+</div>
+
+<div class="row clearfix landing-links-container hide-desktop">
+    <div class="column half landing-nav" spellcheck="false">
+        <div class="landing-nav-container navigation-menu">
+            <div id="smoothmenu1" class="ddsmoothmenu landing">
+                <ul>
+            
+                    <li id="page_100961" class="parent" style="z-index: 98;">
+                        <a href="/shop-originals" class="nav-page" target="">Shop Art</a>
+                    </li>
+            
+                    <li id="page_99447" class="parent" style="z-index: 97;">
+                        <a href="#" class="nav-page disabled" target="">Info</a>
+                        <ul class="dropdown" style="top: 31px;visibility: visible;left: 0px;width: 202px;display: block;">
+            
+                            <li id="page_99446" class="">
+                                <a href="/bio" class="" target="">Bio</a>
+            
+                            </li>
+            
+                            <li id="page_99448" class="">
+                                <a href="/exhibitions" class="" target="">Exhibitions</a>
+            
+                            </li>
+            
+                            <li id="page_99467" class="">
+                                <a href="/collections" class="" target="">Select Collections</a>
+            
+                            </li>
+            
+                            <li id="page_101151" class="">
+                                <a href="/in-the-studio/albums/in-the-studio" class="" target="">In the Studio</a>
+                            </li>
+            
+                            <li id="page_103264" class="">
+                                <a href="/faq" class="" target="">FAQ</a>
+            
+                            </li>
+            
+                        </ul>
+                    </li>
+            
+                    <li id="page_98995" class="parent">
+                        <a href="/contact" class="nav-page" target="">Contact</a>
+            
+                    </li>
+            
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- social icons -->
+<ul class="landing-social-icons">
+
+    <li class="parent">
+        <a href="http://instagram.com/glenndeneve" class="nav-page" target="blank">Instagram</a>
+    </li>
+
+    <li class="parent">
+        <a href="http://www.facebook.com/gldeneve" class="nav-page" target="blank">Facebook</a>
+    </li>
+
+</ul>

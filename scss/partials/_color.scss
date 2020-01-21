@@ -1,0 +1,120 @@
+
+// background color
+// .body-container,
+// #content_area .lead-content,
+// .footer-outer,
+// body#user_website,
+// .website-body #content_area,
+// #content_area .product-container .photo-outer-container .photo-inner-container,
+// #user_website .top-controls-outer#top_controls,
+// div#footer,
+// #user_website .website-body #scrolling_header_and_navigation,
+// #content_area .product-container .product-outer-container .photo-inner-container a.product-photo-link
+
+body#user_website {
+	background-color: $primaryColor;
+}
+
+.global-form-container label,
+.user-form-field-label label,
+.user-form-field-label,
+#user_website .top-controls #account_container a,
+#user_website #shopping_cart_bar_container.site-search-avail #shopping_cart_btn a.submit-form-btn,
+#user_website #search.search-container form input.submit-form-btn,
+#user_website #scrolling_header_and_navigation .navigation-menu .ddsmoothmenu ul li a {
+	color: $lightGray;
+}
+
+
+
+// black version 1
+//
+// 2.0 GENERAL strict selector
+//
+.website-body {
+
+		@media only screen and (min-width: 58.75em) {
+		.content-area p,
+		.content-area ul li,
+		.content-area ol li,
+		.content-area {
+			font-size: 1.1em;
+			color: $lightGray;
+			letter-spacing: 0.7px;
+		}
+
+		// header color
+		.large-12.columns.no-left-right-padding.logo-nav-inline {
+			border-bottom: 2px solid $darkGray;
+			border-top: 2px solid $darkGray;
+			margin-top: 15px;
+		}
+
+		#scrolling_header_and_navigation {
+			border-bottom: 2px solid $darkGray;
+		}
+
+		// headings
+
+		// page title
+		#content_area .content-area-inner .headline h1 {
+			color: $mediumGray;
+		}
+		// product title, price ext
+		#content_area .product-container .album-title {
+			.product-name a,
+			.pre-price-text,
+			.cheapest-price {
+				color: $lightGray;
+			}
+		}
+		// END header color
+	} // END website-body
+
+	//
+	// 2.0 GENERAL strict selector
+	//
+	#user_website .website-body {
+		#shopping_cart_btn_sidebar.sidebar-widget a.submit-form-btn.soft,
+		#scrolling_header_and_navigation .navigation-menu .ddsmoothmenu ul.dropdown li a,
+		#navigation .navigation-menu .ddsmoothmenu ul li.parent .dropdown a {
+			color: $mediumGray;
+		}
+		// top nav
+		#navigation .navigation-menu .ddsmoothmenu ul li.parent a.nav-page {
+			color: $lightGray;
+		}
+		// parent nav hover
+		#navigation .navigation-menu .ddsmoothmenu ul:not(.dropdown) li a.jqhover {
+			color: $white;
+		}
+		// subnav hover
+		#navigation .navigation-menu .ddsmoothmenu ul li ul.dropdown a.jqhover {
+			color: $darkGray;
+		}
+		// scrolling nav HOVER
+		#scrolling_header_and_navigation .navigation-menu .ddsmoothmenu ul:not(.dropdown) li a.jqhover {
+			// parent nav hover
+			color: $white;
+		}
+		// subnav hover
+		#scrolling_header_and_navigation .navigation-menu .ddsmoothmenu ul.dropdown li a.jqhover {
+			// parent nav hover
+			color: $darkGray;
+		}
+	} // END 2.0 GENERAL strict selector
+}
+
+// END black version 1
+
+// product page: 
+.content-area {
+	// product attributes
+	.product-name,
+	.item-price-container {
+		// select all
+		 * {
+			color: $lightGray;
+		}
+	}
+}

@@ -1,0 +1,134 @@
+// /* top nav */
+a.nav-page[href="http://www.facebook.com/gldeneve"]::before,
+a.nav-page[href="http://instagram.com/glenndeneve"]::before {
+	display: inline-block;
+	font: normal normal normal 16px/1 FontAwesome;
+	font-size: 24px;
+}
+
+// header: last link end padding fix
+#user_website #navigation .ddsmoothmenu ul li.parent:last-of-type a,
+#user_website #scrolling_header_and_navigation .ddsmoothmenu ul li:last-of-type a {
+	padding-right: 0;
+}
+
+// mobile only
+// mobile only
+// mobile only
+@media only screen and (max-width: 845px) {
+// top navigation fixed
+	.fixed > .fixed {
+		height: 50px;
+		background: $primaryColor;
+	}
+	.top-bar {
+		background: transparent;
+	}
+	.top-bar .toggle-topbar a {
+		font-size: 1.2em;
+		line-height: 60px;
+		padding: 0 5px;
+		color: #bebebe;
+	}
+	// fixed header mobile
+	.top-bar .scrolling-logo img {
+		height: 48px !important;
+	}
+	// top bar
+	#user_website #top_controls {
+		margin-top: 0 !important;
+		> .wrap {
+			padding: 0;
+		}
+	}
+	// top navigation dropdown
+	.top-bar-section {
+		display: flex;
+		flex-direction: column;
+		height: calc(100vh - 45px);
+		ul.right {
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+		}
+		ul li > a {
+			text-align: center;
+			font-size: 1em;
+			font-weight: 300;
+			padding: 1em 0;
+		}
+	}
+	// END top navigation dropdown
+}
+// END mobile only
+// END mobile only
+// END mobile only
+
+// media query DESKTOP ONLY
+// media query DESKTOP ONLY
+// media query DESKTOP ONLY
+@media only screen and (min-width: 58.75em) {
+	.ddsmoothmenu {
+		margin-bottom: 0;
+		padding: 1rem 0 .5rem 0;
+	}
+	// fixed nav
+	#scrolling_header_and_navigation {
+		// fixed nav logo
+		.logo-slogan.image {
+			margin-top: 25px;
+		}
+	}
+	// // // // 	account links reorder
+	#search.search-container.site-search-avail {
+		width: auto;
+		margin-bottom: 0;
+		flex: 1 0 300px;
+	}
+	// top bar
+	.top-controls-outer .top-controls {
+		display: flex;
+		align-items: center;
+		flex-direction: row-reverse;   
+	}
+	// cart nav element
+	#shopping_cart_bar_container.content-area {
+		position: absolute;
+		width: auto;
+	}
+	/* search form */
+	#search form {
+		display: flex;
+		align-items: end;
+	}
+	// account nav elements container
+	#user_website #account_container {
+		display: flex;
+		justify-content: flex-end;
+		color: transparent;
+		padding-right: 10rem;
+	}
+	// login nav element
+	#user_website #account_container #login_main_nav {
+		order: 1;
+	}
+	// create account element
+	#user_website #account_container #create_account_main_nav {
+		order: 2;
+	}
+	// favorites top bar link
+	#user_website #account_container #favorite_lists_dropdown {
+		order: 3;
+	}
+	// add bars in between top bar account links
+	#user_website #account_container a:nth-child(-n + 2)::before {
+		content: "|";
+		padding-right: 14px;
+		color: #333;
+	}
+	// // // END account links reorder
+}
+// END media query DESKTOP ONLY
+// END media query DESKTOP ONLY
+// END media query DESKTOP ONLY

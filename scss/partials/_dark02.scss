@@ -1,0 +1,64 @@
+
+// black version 2
+$primaryColor: #131313;
+$black: #000;
+$darkGray: #333;
+$mediumGray: #666;
+$lightGray: #999;
+$white: #f1f1f1;
+
+// header color
+#user_website .website-body .logo-nav-inline {
+	background-color: $white;
+}
+
+@media only screen and (min-width: 58.75em) {
+	// 
+	// 2.0 GENERAL strict selector
+	// 
+	.website-body {
+
+		// header color
+		.large-12.columns.no-left-right-padding.logo-nav-inline {
+			border-bottom: 2px solid $darkGray;
+			border-top: 2px solid $darkGray;
+			margin-top: 15px;
+		}
+
+		#scrolling_header_and_navigation {
+			border-bottom: 2px solid $darkGray;
+		}
+
+		// page title
+		#content_area .content-area-inner .headline h1 {
+			color: $lightGray;
+		}
+		// product title
+		#content_area .product-container .album-title {
+			.product-name a,
+			.pre-price-text,
+			.cheapest-price {
+				color: $mediumGray;
+			}
+		}
+		// END header color
+		
+	} // END website-body
+
+	// 
+	// 2.0 GENERAL strict selector
+	// 
+	#user_website { 
+		#top_controls.top-controls-outer {
+			margin-top: 15px;
+		}
+		#navigation .navigation-menu .ddsmoothmenu ul li.parent a.jqhover {
+			color: $darkGray;
+		}
+
+		#navigation .navigation-menu .ddsmoothmenu ul li.parent .dropdown a.jqhover {
+			color: $mediumGray;
+		}
+	} // END 2.0 GENERAL strict selector
+
+}

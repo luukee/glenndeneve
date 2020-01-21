@@ -1,0 +1,23 @@
+// masonry spacing
+.Masonry figure {
+    img {
+        padding: 15px;
+    }
+    /* ----------- iPad Pro 10.5" ----------- */
+    /* Portrait and Landscape */
+    @media only screen 
+    and (min-device-width: 834px) 
+    and (max-device-width: 1112px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        max-width: 324px;
+    }
+    /* ----------- Retina Screens ----------- */
+    // retina laptop
+    @media screen 
+    and (min-device-width: 1200px) 
+    and (max-device-width: 1600px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (min-resolution: 192dpi) { 
+        max-width: 415px;
+    }
+}

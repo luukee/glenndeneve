@@ -1,0 +1,31 @@
+// text area text input
+#user_website input,
+#user_website textarea {
+	background-color: #bebebe;
+	border-radius: 0;
+}
+::placeholder {
+    color: $mediumGray !important;
+}
+
+// mobile only
+// mobile only
+// mobile only
+@media only screen and (max-width: 845px) {
+#search {
+    input[type="text"],
+    #search_in_page input[type="text"] {
+        font-size: 10px;
+        height: 24px;
+        max-width: 145px;
+    }
+    form,
+    #search_in_page form {
+			display: flex;
+			justify-content: flex-start;
+		}
+    }
+}
+// END mobile only
+// END mobile only
+// END mobile only

@@ -1,0 +1,83 @@
+
+// WHITE VERSION ONE
+
+$primaryColor: #f1f1f1; 
+$black: #000;
+$darkGray: #333;
+$mediumGray: #666;
+$lightGray: #999;
+$white: #fff;
+
+
+// black version 2
+@media only screen and (min-width: 58.75em) {
+
+	// 
+	// 2.0 GENERAL strict selector
+	// 
+	.website-body {
+
+		// header color
+
+		.large-12.columns.no-left-right-padding.logo-nav-inline {
+			background-color: $primaryColor;
+			border-bottom: 2px solid $lightGray;
+			border-top: 2px solid $lightGray;
+			margin-top: 15px;
+		}
+
+		#scrolling_header_and_navigation {
+			border-bottom: 2px solid $darkGray;
+		}
+
+		// page title
+		#content_area .content-area-inner .headline h1 {
+			color: $mediumGray;
+		}
+		// product title
+		#content_area .product-container .album-title {
+			.product-name a,
+			.pre-price-text,
+			.cheapest-price {
+				color: $mediumGray;
+			}
+		}
+		// END header color
+		
+	} // END website-body
+
+	// 
+	// 2.0 GENERAL strict selector
+	// 
+	#user_website .website-body { 
+
+		// nav header
+		.logo-nav-inline {
+			background-color: $white;
+		}
+
+		#shopping_cart_btn_sidebar.sidebar-widget a.submit-form-btn.soft,
+		#scrolling_header_and_navigation .navigation-menu .ddsmoothmenu ul li a,
+		#navigation .navigation-menu .ddsmoothmenu ul li.parent .dropdown a {
+			color: $lightGray;
+		}
+		// top nav HOVER
+			// parent nav hover
+		#navigation .navigation-menu .ddsmoothmenu ul:not(.dropdown) li a.jqhover { 
+			color: $white;
+		}
+			// subnav hover
+		#navigation .navigation-menu .ddsmoothmenu ul li ul.dropdown a.jqhover { 
+			color: $darkGray;
+		}
+		// scrolling nav HOVER
+		#scrolling_header_and_navigation .navigation-menu .ddsmoothmenu ul:not(.dropdown) li a.jqhover { // parent nav hover
+			color: $darkGray;
+		}
+			// subnav hover
+		#scrolling_header_and_navigation .navigation-menu .ddsmoothmenu ul.dropdown li a.jqhover { // parent nav hover
+			color: $darkGray;
+		}
+	} // END 2.0 GENERAL strict selector
+
+}

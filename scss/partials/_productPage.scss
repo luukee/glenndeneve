@@ -1,0 +1,52 @@
+// Product page: wall preview
+.preview-wall-color {
+	background-image: url(https://i.ibb.co/9qkLCxN/living-Room3-0-1.png);
+}
+// product page: image container
+.pgwSlideshow,
+.product-photos {
+	background-color: transparent;
+}
+// Products page: name and price
+.store-container {
+	.product-outer-container .album-title {
+		display: none;
+	}
+}
+// Products: vertically align thumbs
+.photo-inner-container {
+	a div.photo-hover {
+		background: transparent;
+		opacity: 1;
+		border: 1px solid $darkGray;
+	}
+}
+// product page: thumbnails container
+.pgwSlideshow .ps-list {
+	background-color: transparent;
+}
+// product breadcrumbs
+div.art-store div.crumbtrail a, 
+div.art-store div.crumbtrail div {
+    color: $mediumGray;
+}
+// product builder tabs
+.build-product-form.art-print-product .product-builder-tabs {
+    .art-store-tab-content-area {
+        background-color: $primaryColor;
+    }
+}
+// media query DESKTOP ONLY
+// media query DESKTOP ONLY
+// media query DESKTOP ONLY
+@media only screen and (min-width: 58.75em) {
+    // product page photo container
+    .product-photos {
+        border: 1px solid $darkGray !important;
+        border-right: none !important;
+    }
+}
+// END media query DESKTOP ONLY
+// END media query DESKTOP ONLY
+// END media query DESKTOP ONLY
+

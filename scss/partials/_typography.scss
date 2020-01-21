@@ -1,0 +1,58 @@
+body *:not(.fa) {
+	font-family: verdana, Arial, sans-serif !important;
+}
+
+// links
+.content-area a:link, 
+.content-area a:visited {
+	text-decoration: none;
+}
+
+// // titles
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	letter-spacing: 1px;
+}
+
+ul,
+ol,
+p {
+	font-size: 1rem;
+}
+@media only screen and (min-width: 58.75em) {
+	#user_website h1 {
+		font-size: 1.5em;
+		margin: 15px 0 15px 0;
+		color: $lightGray !important;
+	}
+}
+h6 {
+	border-top: 1px solid $mediumGray;
+	padding-top: 1rem;
+}
+
+// photo album titles hide
+.album-spread .album-title {
+	display: none !important;
+}
+
+// bio title hide
+.bio .headline h1 {
+	text-indent: -100vw;
+}
+
+// headline
+#content_area .content-area-inner .headline h1 {
+	text-indent: -100vw;
+	position: absolute;
+}
+
+#content_area .content-area-inner .headline h1,
+.content-area .global-form-container h1 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
